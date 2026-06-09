@@ -13,14 +13,23 @@ class Dog(animal):
     def __init__(self):
         super().__init__("Dog", "bark")
 
+    def makesound(self):
+        print(f"dogs are best")
+
 class Duck(animal):
 
     def __init__(self):
-        super().__init__("Duck","Quack") 
+        super().__init__("Duck","Quack")
+
+    def makesound(self):
+        print(f"ducks are better")
 
 class Seal(animal):
     def __init__(self):
         super().__init__("Seal", "screech")
+
+    def makesound(self):
+        print(f"seals are okay")
 
 lassy = Dog()
 
